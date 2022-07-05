@@ -39,12 +39,12 @@ form{
 }
 
 form input{
-    border:0;
     outline: none;
     padding: 10px 20px;
     height: 70px;
     width: 400px;
     font-size: 16px;
+    border: 0;
 }
 
 form button{
@@ -59,4 +59,31 @@ span{
     color: #61b752;
     margin-top: 10px;
     display: block;
+}
+
+.thanks {
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+@media (max-width: 576px){
+
+
+form input{
+    width: 100%;
+}
+#hero h1{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#hero h3 {
+    margin-top: 5%;
+    font-weight: 100;
+    font-size: 30px;
+}
+
 }
